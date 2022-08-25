@@ -176,3 +176,11 @@ p{
     display: none;
 }
 
+/*Registro-----------------------------------------------*/
+.main{
+    color: #ffffff
+}
+
+.registro{
+    background-color: red;
+}

@@ -34,11 +34,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li><a href="Calendario.html" class="nav-link">Calendario</a></li>
-                            <li><a href="Cursos.html" class="nav-link">Cursos</a></li>
-                            <li><a href="Recursos.html" class="nav-link">Recursos</a></li>
-                            <li><a href="Alumnos.html" class="nav-link">Alumnos</a></li>
-                            <li><a href="Registro.html" class="nav-link">Registro</a></li>
+                        <li><a href="Calendario.html" class="nav-link">Calendario</a></li>
+                        <li><a href="Cursos.html" class="nav-link">Cursos</a></li>
+                        <li><a href="Recursos.html" class="nav-link">Recursos</a></li>
+                        <li><a href="Alumnos.html" class="nav-link">Alumnos</a></li>
+                        <li><a href="Registro.html" class="nav-link">Registro</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,36 +47,32 @@
 
     <!--Cuerpo------------------------------------------------------------>
     <main class="main">
-        <br><br>
-        <h1 class="infoRegistro">Registrate y empezá a modelar en 3d</h1>
-        <br><br>
+
 
         <!--formulario------------------------------------------------------>
 
-        <form action="#" class="formulario">
-            <label for="Nombre"> Tu Nombre:<br><br>
-                <input type="text" placeholder="nombre apellido">
-            </label>
+        <form class="container">
             <br><br>
-            <label for="email"> Tu email:<br><br>
-                <input type="email" placeholder="aaa@gmail.com" name="email">
-            </label>
+            <h1 class="registro d-flex justify-content-center">Registrate y empezá a modelar en 3d</h1>
             <br><br>
-            <label for="Información"> Qué te interesa aprender:<br><br>
-                <textarea placeholder="Cuéntanos tus intereses"></textarea>
-            </label>
-            <br><br>
-            <h4>Que programa 3d sabes manejar?</h4><br>
-            <select name="letra" id="letra">
-                <option value="Rhino">Rhinoceros 3d</option>
-                <option value="Solid">Solidworks</option>
-                <option value="Inventor">Inventor</option>
-            </select><br><br>
-            <div>Queres recibir información?<br>
-                <input type="checkbox" name="acepta" value="1">
-            </div><br>
-            <input type="submit">
-            <input type="reset" value="Cancelar">
+            <div class="mb-3">
+                <label for="exampleInputname" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
+                <br>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </main>
 
